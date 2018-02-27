@@ -1,11 +1,14 @@
-const int led_1=4;
-void setup() {
-pinMode (led_1 ,OUTPUT);
+const int RED_LED = 12;
+void setup ()
+{
+  pinMode(RED_LED,OUTPUT);
 }
 
-void loop() {
-digitalWrite (led_1,HIGH);
-delay (500);
-digitalWrite (led_1,LOW);
-delay(1500);
+void loop()
+{
+  digitalWrite(RED_LED,HIGH);
+  delay(500);
+  digitalWrite(RED_LED,LOW);
+  delay(1500);  
 }
+
